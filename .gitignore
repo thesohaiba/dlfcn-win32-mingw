@@ -1,5 +1,7 @@
 /.vscode/
 /build/
+/tests/*.exe
+/tests/*.dll
 
 *.o
 *.code-workspace
