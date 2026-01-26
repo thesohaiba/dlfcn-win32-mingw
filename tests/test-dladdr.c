@@ -1,3 +1,13 @@
+/*
+    dlfcn-win32-mingw - POSIX dlfcn library implementation for Windows (Win32) with MinGW.
+
+	Copyright (C) 2026 Roman Kravchenko
+	Based on dlfcn-win32 by dlfcn-win32 (https://github.com/dlfcn-win32/dlfcn-win32).
+	Original dlfcn from GNU C Library.
+
+	SPDX-License-Identifier: MIT
+*/
+
 /* On Unix like os compile with "-Wl,--export-dynamic -fpie" (default with cmake) */
 /* On Windows gcc compile with "-Wl,--export-all-symbols" (default with cmake) */
 /* On Windows msvc compile with "/EXPORT:dlopen /EXPORT:dladdr" (default with cmake) */
