@@ -1,6 +1,6 @@
 # POSIX dlfcn library implementation for Windows (Win32) with MinGW.
 
-Used sources from [dlfcn-win32](https://github.com/dlfcn-win32/dlfcn-win32) repo and setupped it to compile with MinGW to static (`lib\[...].a`) \& dynamic (`\[...].dll`) libraries.
+Used sources from [dlfcn-win32](https://github.com/dlfcn-win32/dlfcn-win32) repo and setupped it to compile with MinGW to static (`lib[...].a`) & dynamic (`[...].dll`) libraries.
 
 ## Building
 Just run `build.bat` and wait for comiling and linking libraries. Out libraries files contain in `build/` folder.
